@@ -17,7 +17,7 @@ export const NavToggleButton = (props)=>{
         secondary={true}
         onTouchTap={props.toggle}
       >
-        <Menu/>
+      <Menu></Menu>
       </FloatingActionButton>
     </StayVisible>
   )
